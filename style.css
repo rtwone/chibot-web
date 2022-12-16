@@ -50,6 +50,7 @@ ul{
 .box li{
   display: inline-block;
   margin: 6px;
+  margin-top: 50vh;
   list-style: none;
 }
 .box li a{
