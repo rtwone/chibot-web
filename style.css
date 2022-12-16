@@ -48,7 +48,7 @@ ul{
 }
 .box li{
   display: inline-block;
-  margin: 6px;
+  margin: 10px;
   list-style: none;
 }
 .box li a{
