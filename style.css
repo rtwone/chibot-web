@@ -15,6 +15,7 @@ body {
 
 .box{
   width: 650px;
+  height: 500px;
   background: rgba(0, 0, 0, 0.4);
   padding: 55px;
   text-align: center;
