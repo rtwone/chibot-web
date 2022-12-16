@@ -41,6 +41,7 @@ body {
 }
 .box p{
   text-align: justify;
+  font-size: 20px;
 }
 ul{
   margin: 0;
