@@ -6,7 +6,11 @@
 }*/
 
 body {
-     background-image: url('profile.jpg');
+     color: #fff;
+     background-image: url('bg.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
 }
 
 .box{
