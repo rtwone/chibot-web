@@ -1,64 +1,59 @@
-/*body{
-  margin: 0;
-  padding: 0;
-  background: url(bg.jpg) no-repeat;
-  background-size: cover;
-}*/
-
 body {
-     background: url(bg.jpg) no-repeat center center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-}
-
-.box{
-  width: 650px;
-  height: 1000px;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  color: white;
-  font-family: 'Century Gothic',sans-serif;
-}
-.box-img{
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-}
-.box h1{
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight: 100;
-}
-.box h5{
-  font-size: 30px;
-  letter-spacing: 3px;
-  font-weight: 300;
-}
-.box p{
-  text-align: justify;
-  font-size: 20px;
-}
-ul{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  margin-top: 21vh;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
 }
-.box li{
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
+
+.glass-box {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
 }
-.box li a{
-  color: white;
+
+.profile {
+  border-radius: 50%;
+}
+
+.box {
+  margin: 50px 105px;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  display: flex;
   text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
+  list-style-type: none;
+  justify-content: center;
 }
-.box li a:hover{
-  color: #b9b9b9;
+
+ul li {
+  margin-right: 50px;
+  font-size: 35px;
+}
+
+.white {
+  color: #F8F8FF;
+}
+
+.dark {
+  color: #becbd6;
+}
+
+@media screen and (max-width: 576px) {
+  .box {
+    margin: 25px 15px;
+  }
 }
